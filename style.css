@@ -1,0 +1,65 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: yellow;
+}
+
+header {
+  background-color: blue;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: lightblue;
+  padding: 0;
+  margin: 0;
+  height: 20%;
+}
+
+.ul-nav {
+  list-style-type: none;
+  height: 20px;
+}
+
+.nav-link {
+  float: left;
+  margin-left: 2%;
+}
+
+main {
+  background-color: pink;
+  height: 50%;
+}
+
+.main-section {
+  background-color: pink;
+  height: 50%;
+}
+
+.aside-section {
+  background-color: red;
+  height: 100%;
+  width: 30%;
+  float: right;
+}
+
+.dl-aside {
+  text-align: left;
+}
+
+.article-style {
+  background-color: green;
+  height: 50%;
+}
+
+.section2-style {
+  background-color: gray;
+  height: 20%;
+  margin: 0 5%;
+}
+
+#article2-style {
+  background-color: green;
+}

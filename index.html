@@ -5,63 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basic Semantic Layout Exercise</title>
-    <style>
-      body {
-        padding: 0;
-        margin: 0;
-        text-align: center;
-      }
-
-      header {
-        background-color: blue;
-        padding: 0;
-        margin: 0;
-      }
-
-      nav {
-        background-color: lightblue;
-        padding: 0;
-        margin: 0;
-        height: 20%;
-      }
-
-      .ul-nav {
-        list-style-type: none;
-        height: 20px;
-      }
-
-      .nav-link {
-        float: left;
-        margin-left: 2%;
-      }
-
-      main {
-        background-color: pink;
-        height: 50%;
-      }
-
-      .main-section{
-        background-color: pink;
-        height: 50%;
-      }
-
-      .aside-section{
-        background-color: red;
-        height: 100%;
-        width: 30%;
-        float: right;
-      }
-
-      .dl-aside{
-        text-align: left;
-      }
-
-      .article-style{
-        background-color: green;
-        height: 50%;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
     <!-- HEADER SECTION -->
     <header>
@@ -78,7 +30,6 @@
 
     <!-- MAIN SECTION -->
     <main>
-
       <h2>MAIN CONTENT</h2>
       <section class="main-section">
         <!-- ASIDE -->
@@ -112,9 +63,19 @@
           <h3>ARTICLE 1</h3>
         </article>
       </section>
-      <hr>
+      <hr />
 
       <!-- SECTION 2 -->
+      <h3>SECTION 2</h3>
+      <section class="section2-style">
+        <!-- ARTICLE 2 -->
+        <h3 id="article2-style">ARTICLE 2</h3>
+        <p>
+          This is just a random text just to show how the float property usually
+          works. Let's add more text to know how this will be working as we add
+          more content to our site.
+        </p>
+      </section>
       <!-- SECTION 2 -->
     </main>
 
