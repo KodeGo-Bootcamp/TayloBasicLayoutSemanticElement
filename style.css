@@ -69,3 +69,13 @@ main {
     background-color: orange;
     height: 25%;
 }
+
+footer{
+    background-color: black;
+    height: 20vh;
+    color: white;
+}
+
+.footer-style{
+    padding-top: 4%;
+}
