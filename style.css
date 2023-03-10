@@ -3,6 +3,7 @@ body {
   margin: 0;
   text-align: center;
   background-color: yellow;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -62,4 +63,9 @@ main {
 
 #article2-style {
   background-color: green;
+}
+
+.section3-style{
+    background-color: orange;
+    height: 25%;
 }
